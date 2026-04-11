@@ -50,25 +50,7 @@ Một giải pháp toàn diện hỗ trợ đặt lịch khám bệnh trực tuy
 
 ---
 
-## 📁 Cấu trúc dự án
-
-```text
-WEB_MOBILE_QLBV/
-├── BookinhMVC/             # Mã nguồn Backend & Web Portal (ASP.NET Core MVC)
-│   ├── Controllers/        # Xử lý logic API và Web (Admin, Chat, Payment...)
-│   ├── Models/             # Chứa các Entity Models (Bệnh nhân, Bác sĩ, Lịch hẹn...)
-│   ├── Views/              # Giao diện cho Admin, Bác sĩ, CSKH
-│   ├── Hubs/               # Cấu hình SignalR (ChatHub, BookingHub)
-│   ├── Services/           # Logic tích hợp (VNPay, MoMo, Reminder...)
-│   └── appsettings.json    # Cấu hình chuỗi kết nối DB và API Keys
-└── mobile/Booking/         # Mã nguồn Mobile App (Flutter)
-    ├── lib/                
-    │   ├── models/         # Data models mapping với Backend API
-    │   ├── screens/        # Giao diện ứng dụng (Home, Booking, Chat, Profile...)
-    │   ├── services/       # Xử lý API calls và SignalR
-    │   └── widgets/        # Component UI dùng chung
-    └── pubspec.yaml        # Quản lý dependencies
-    ⚙️ Hướng dẫn cài đặt & Chạy dự án
+### ⚙️ Hướng dẫn cài đặt & Chạy dự án
 1. Cài đặt Backend (Web Portal)
 Yêu cầu: Đã cài đặt .NET SDK (phiên bản phù hợp), SQL Server và Visual Studio / VS Code.
 - Clone dự án về máy:
@@ -90,3 +72,24 @@ Các cấu hình liên quan đến cổng thanh toán (VNPay, MoMo) hiện đang
 ✍️ Tác giả / Đóng góp
 Dự án được phát triển bởi [Nhóm Four Rocks- Trần Quang Hiển(Dev Full Stack Mobile, Leader); Lê Trần Kim Hưng(Backend Web); Nguyễn Hoàng Anh(Frontend Web)].
 Nếu bạn có bất kỳ thắc mắc nào hoặc muốn đóng góp cho dự án, vui lòng tạo Issues hoặc gửi Pull Request.
+
+---
+## 📁 Cấu trúc dự án
+
+```text
+WEB_MOBILE_QLBV/
+├── BookinhMVC/             # Mã nguồn Backend & Web Portal (ASP.NET Core MVC)
+│   ├── Controllers/        # Xử lý logic API và Web (Admin, Chat, Payment...)
+│   ├── Models/             # Chứa các Entity Models (Bệnh nhân, Bác sĩ, Lịch hẹn...)
+│   ├── Views/              # Giao diện cho Admin, Bác sĩ, CSKH
+│   ├── Hubs/               # Cấu hình SignalR (ChatHub, BookingHub)
+│   ├── Services/           # Logic tích hợp (VNPay, MoMo, Reminder...)
+│   └── appsettings.json    # Cấu hình chuỗi kết nối DB và API Keys
+└── mobile/Booking/         # Mã nguồn Mobile App (Flutter)
+    ├── lib/                
+    │   ├── models/         # Data models mapping với Backend API
+    │   ├── screens/        # Giao diện ứng dụng (Home, Booking, Chat, Profile...)
+    │   ├── services/       # Xử lý API calls và SignalR
+    │   └── widgets/        # Component UI dùng chung
+    └── pubspec.yaml        # Quản lý dependencies
+
