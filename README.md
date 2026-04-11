@@ -5,6 +5,10 @@
 ![Frontend](https://img.shields.io/badge/Mobile-Flutter-02569B.svg)
 ![Database](https://img.shields.io/badge/Database-SQL_Server-CC2927.svg)
 
+# 📁 Lịch sử phát triển dự án
+Dự án được phát triển từ demo PHP của nhóm FourRock của các thành viên: Trần Quang Hiển, Lê Trần Kim Hưng, Nguyễn Hoàng Anh.
+Link tham khảo dự án PHP của nhóm FourRock: https://github.com/hienquangtranht1/DoAnCoSo-DAT-LICH-KHAM-BENH-DEMO.
+
 Một giải pháp toàn diện hỗ trợ đặt lịch khám bệnh trực tuyến, quản lý phòng khám và tương tác giữa Bệnh nhân - Bác sĩ - Nhân viên chăm sóc khách hàng. Hệ thống bao gồm **Web Admin Portal** (dành cho quản lý, bác sĩ, CSKH) và **Mobile Application** (dành cho bệnh nhân).
 
 ---
